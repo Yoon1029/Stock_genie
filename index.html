@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Info</title>
+</head>
+<body>
+    <h1>Stock Price Information</h1>
+    <label for="dateInput">Enter the purchase date (e.g., 20240529):</label>
+    <input type="text" id="dateInput">
+    <button onclick="fetchStockPrice()">Get Stock Price</button>
+    <pre id="result"></pre>
+
+    <!-- Axios CDN 포함 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- JavaScript 파일 포함 -->
+    <script src="index.js"></script>
+</body>
+</html>
